@@ -1,0 +1,19 @@
+button {
+  width: 170px;
+  height: 50px;
+  text-size-adjust: 10;
+}
+
+button:hover {
+  background-color: crimson;
+  cursor: pointer;
+}
+
+tr:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
