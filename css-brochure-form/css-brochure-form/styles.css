@@ -1,6 +1,7 @@
 fieldset {
   width: 33rem;
   margin: auto;
+  border: none;
 }
 
 h2 {
