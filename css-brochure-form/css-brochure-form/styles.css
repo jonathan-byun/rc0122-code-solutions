@@ -16,7 +16,7 @@ h2 {
 label {
   font-size: 0.75rem;
   margin-left: 2.5rem;
-  font-weight: 500;
+  font-weight: 550;
   font-family: sans-serif;
 }
 
@@ -27,6 +27,7 @@ input {
   border-radius: 5px;
   height: 2rem;
   border: rgb(156 156 156) groove 1px;
+  padding: 4px 8px;
 }
 
 input::placeholder {
