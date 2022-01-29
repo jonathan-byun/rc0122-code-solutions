@@ -1,0 +1,209 @@
+.container {
+  margin: 0 5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.header-link {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.column-fifth {
+  flex-basis: 20%;
+}
+
+.column-two-thirds {
+  flex-basis: calc(200% / 3);
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.img-head {
+  font-size: 3rem;
+  color: white;
+  margin: 10rem 30rem 0 6rem;
+}
+
+.margin-main-logo {
+  margin: 2rem 0;
+  font-size: 4.5rem;
+  color: rgb(32 32 124);
+}
+
+.margin-two-top {
+  margin: 2rem 0;
+}
+
+.blue-round-border {
+  background-color: rgb(32 32 124);
+  border-radius: 10%;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: rgb(70 70 70);
+}
+
+.lightgrey {
+  color: rgb(168 168 168);
+}
+
+.eggshell {
+  background-color: rgb(253 250 243);
+}
+
+.center {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.inside-img {
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+}
+
+.lady-pic {
+  filter: grayscale(20%);
+  filter: brightness(70%);
+}
+
+.emr-info {
+  margin: 1rem 22rem 3rem 5rem;
+  padding: 1rem;
+  color: white;
+  line-height: 3rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+
+hr {
+  color: rgb(54 124 190);
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+img {
+  width: 100%;
+}
+
+.get-started {
+  font-size: 2rem;
+  background-color: rgb(32 32 124);
+  color: white;
+  margin: 3rem 6rem 0;
+  border-radius: 5%;
+  padding: 1rem 5rem;
+}
+
+.clinicians-heading {
+  color: grey;
+  font-size: 3rem;
+  margin: 8rem 0 0;
+}
+
+.clinicians-text {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.clinics {
+  font-size: 2rem;
+  color: grey;
+  line-height: 5rem;
+  margin: 3rem 0 9rem;
+}
+
+.learn-more {
+  color: rgb(90 90 90);
+  font-size: 2.5rem;
+  margin: 1rem 5rem;
+}
+
+.learn-text {
+  margin: 1rem 5rem;
+}
+
+.justify-right {
+  justify-content: right;
+}
+
+.button-two {
+  margin: 0 1rem 4rem;
+}
+
+.grey-block {
+  background-color: rgb(70 70 70);
+}
+
+.bot-logo {
+  color: white;
+  font-size: 4.5rem;
+  margin: 5rem 5rem 3rem;
+}
+
+.contact {
+  color: white;
+  margin: 0 5rem 15rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+h3 {
+  color: white;
+  font-size: 2rem;
+  margin: 7rem 0 0;
+  font-weight: normal;
+}
+
+.listed {
+  color: white;
+  font-size: 1.75rem;
+  line-height: 4rem;
+}
+
+.footer-links {
+  color: rgb(70 70 70);
+  font-size: 1.5rem;
+  margin: 3rem 5rem;
+}
+
+.bottom-column {
+  margin: 3rem 5rem;
+}
+
+.bottom-links {
+  font-size: 1.5rem;
+  margin: 0 3rem 0 0;
+}
