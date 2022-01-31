@@ -1,0 +1,15 @@
+var fullname = 'Jonathan Byun';
+var isCool = true;
+var totalPets = 1;
+console.log('Fullname:', fullname);
+console.log('Is cool:', isCool);
+console.log('Total pets:', totalPets);
+console.log('fullname is:', typeof fullname);
+console.log('isCool is:', typeof isCool);
+console.log('totalPets is:', typeof totalPets);
+var unknown = null;
+console.log('Unknown:', unknown);
+console.log('unknown is:', typeof unknown);
+var never;
+console.log('Never:', never);
+console.log('Never is:', typeof never);
