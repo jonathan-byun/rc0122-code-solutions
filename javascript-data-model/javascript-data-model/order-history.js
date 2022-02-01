@@ -1,6 +1,6 @@
 var orderHistory = [
   {
-    items: 'JavaScript for impatient progammers',
+    items: ['JavaScript for impatient progammers'],
     total: 31.55,
     shipTo: 'JS Masher',
     placed: 'August 4, 2020',
@@ -9,7 +9,7 @@ var orderHistory = [
     orderNumber: '#114-3941689-8772232'
   },
   {
-    items: 'The Timeless Way of Building',
+    items: ['The Timeless Way of Building'],
     total: 41.33,
     shipTo: 'JS Masher',
     placed: 'July 19, 2020',
@@ -18,7 +18,7 @@ var orderHistory = [
     orderNumber: '#113-9984268-1280257'
   },
   {
-    items: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecub Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
+    items: ['Gamecube Controller Adapter. Super Smash Bros Switch Gamecub Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter'],
     total: 15.98,
     shipTo: 'JS Masher',
     placed: 'July 4, 2020',
@@ -27,7 +27,7 @@ var orderHistory = [
     orderNumber: '#114-2875557-9059409'
   },
   {
-    items: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch), The Art of Sql',
+    items: ['GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)', 'The Art of Sql'],
     total: 138.93,
     shipTo: 'JS Masher',
     placed: 'July 3, 2020',
