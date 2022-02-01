@@ -41,6 +41,10 @@
   margin: 10rem 30rem 0 6rem;
 }
 
+.product-head {
+  margin: 14rem 20rem 0 6rem;
+}
+
 .margin-main-logo {
   margin: 2rem 0;
   font-size: 4.5rem;
@@ -86,6 +90,17 @@ a:link {
   margin-bottom: 4rem;
 }
 
+.img-container-p {
+  position: relative;
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 7rem;
+  overflow: hidden;
+  max-height: 50rem;
+  display: flex;
+  align-items: center;
+}
+
 .inside-img {
   position: absolute;
   left: 2rem;
@@ -97,8 +112,21 @@ a:link {
   filter: brightness(70%);
 }
 
+.product-pic {
+  overflow: hidden;
+}
+
 .emr-info {
   margin: 1rem 22rem 3rem 5rem;
+  padding: 1rem;
+  color: white;
+  line-height: 3rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+
+.product-info {
+  margin: 1rem 18rem 3rem 5rem;
   padding: 1rem;
   color: white;
   line-height: 3rem;
