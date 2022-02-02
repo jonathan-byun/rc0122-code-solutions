@@ -44,3 +44,10 @@ library.push(js);
 library.unshift(css);
 library.splice(1, 1);
 console.log('Library array:', library);
+
+var fullName = 'Jonathan Byun';
+var firstAndLastName = fullName.split(' ');
+console.log('First and Last Name:', firstAndLastName);
+var firstName = firstAndLastName[0];
+var sayMyName = firstName.toUpperCase();
+console.log('My Name:', sayMyName);
