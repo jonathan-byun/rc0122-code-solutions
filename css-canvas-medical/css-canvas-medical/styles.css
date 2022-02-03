@@ -55,6 +55,11 @@
   margin: 2rem 0;
 }
 
+.margin-product-head {
+  margin: 4rem 0 0;
+  padding-left: 5rem;
+}
+
 .blue-round-border {
   background-color: rgb(32 32 124);
   border-radius: 10%;
@@ -234,4 +239,12 @@ h3 {
 .bottom-links {
   font-size: 1.5rem;
   margin: 0 3rem 0 0;
+}
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+.font-size-2 {
+  font-size: 2rem;
 }
