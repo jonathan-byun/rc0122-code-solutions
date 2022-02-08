@@ -7,15 +7,15 @@ var modal = document.querySelector('.modal-background');
 function check(letter) {
   if (counter < letters.length) {
     if (letter.key === letters[counter].textContent) {
-      letters[counter].style.color = 'green';
+      letters[counter].className = 'green';
       counter++;
       accurate++;
       if (counter === letters.length) {
         h3.textContent = ('completed! Accuracy:' + (100 * accurate / (accurate + missed)) + '%');
-        modal.style.display = 'flex';
+        modal.className = 'modal-background-on';
       }
     } else if (letter.shiftKey === false) {
-      letters[counter].style.color = 'red';
+      letters[counter].className = 'red';
       missed++;
     }
   }
