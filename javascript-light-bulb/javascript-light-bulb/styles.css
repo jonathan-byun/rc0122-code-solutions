@@ -1,0 +1,30 @@
+.box-off {
+  display: flex;
+  background-color: black;
+  min-height: 100vh;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulb-off {
+  background-color: rgb(92 92 92);
+  border-radius: 10rem;
+  padding: 10rem;
+}
+
+.bulb-on {
+  background-color: rgb(252 255 79 / 99.3%);
+  border-radius: 10rem;
+  padding: 10rem;
+  box-shadow: 0.75rem 0.75rem 0.5rem 0.5rem rgb(247 245 245);
+}
+
+.box-on {
+  display: flex;
+  background-color: rgb(254 255 203);
+  min-height: 100vh;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
