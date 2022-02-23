@@ -1,0 +1,58 @@
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.box {
+  border: solid black;
+}
+
+.column {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images {
+  width: 25rem;
+  margin: 0 2rem;
+}
+
+.full {
+  flex-basis: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.arrow,
+.arrow2 {
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+
+.fa-circle {
+  margin: 0 5px 2rem;
+  font-size: 1.2rem;
+}
+
+.fa-circle:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.arrow:hover,
+.arrow2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
