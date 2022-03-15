@@ -1,0 +1,189 @@
+    1  cd repos
+    2  ls
+    3  cd rc0122-code-solutions
+    4  git switch master
+    5  git branch javascript-constructors
+    6  git switch javascript-constructors
+    7  git add .
+    8  git commit -m 'Completed javascript-constructors exercise. Jonathan Byun'
+    9  git push origin javascript-constructors
+   10  git switch master
+   11  git branch javascript-timers
+   12  git switch javascript-timers
+   13  git add .
+   14  git commit -m 'completed javascript-timers exercise. Jonathan Byun'
+   15  git push origin javascript-timers
+   16  git switch master
+   17  git branch javascript-ajax
+   18  git switch javascript-ajax
+   19  git add .
+   20  git commit -m 'Completed javascript-ajax exercise. Jonathan Byun'
+   21  git push origin javascript-ajax
+   22  cd repos
+   23  ls
+   24  cd rc0122-code-solutions
+   25  git switch master
+   26  git branch javascript-bank
+   27  git switch javascript-bank
+   28  git add .
+   29  git commit -m 'Completed javascript-bank exercise. Jonathan Byun'
+   30  git push origin javascript-bank
+   31  git switch master
+   32  git branch javascript-carousel
+   33  git switch javascript-carousel
+   34  git add .
+   35  git commit -m 'Completed javascript-carousel exercise. Jonathan Byun'
+   36  git add .
+   37  git commit -m 'Completed javascript-carousel exercise. Jonathan Byun'
+   38  git push origin javascript-carousel
+   39  cd repos
+   40  ls
+   41  cd ajax-project
+   42  git add .
+   43  git commit -m 'Changedcomment and rating system to work on data indexing'
+   44  git push origin 'issue-2-user-can-view-details-of-a-film'
+   45  git add .
+   46  git commit -m 'started creating delete function'
+   47  git add .
+   48  git commit -m 'started creating delete function'
+   49  git push origin 'issue-2-user-can-view-details-of-a-film'
+   50  git add .
+   51  git commit -m 'completed link pathing for completed pages'
+   52  git add .
+   53  git commit -m 'completed link pathing for completed pages'
+   54  git push origin 'issue-2-user-can-view-details-of-a-film'
+   55  git switch master
+   56  git switch issue-2-user-can-view-details-of-a-film
+   57  git branch issue-3-user-can-rate-a-film-out-of-10
+   58  git switch issue-3-user-can-rate-a-film-out-of-10
+   59  git add .
+   60  git commit -m 'completed link pathing for completed pages'
+   61  git push origin 'issue-3-user-can-rate-a-film-out-of-10'
+   62  git switch master
+   63  git pull origin master
+   64  cd repos
+   65  ls
+   66  cd ajax-project
+   67  git add.
+   68  git add .
+   69  git commit -m 'called api for vehicles list and stored in array'
+   70  git add .
+   71  git commit -m 'called api for vehicles list and stored in array'
+   72  git add .
+   73  git commit -m 'called api for vehicles list and stored in array'
+   74  git push origin master 'issue-5-user-can-view-characters-locations-and-vehicles'
+   75  cd repos
+   76  ls
+   77  cd rc0122-code-solutions
+   78  git branch es6-const-let
+   79  git switch es6-const-let
+   80  git add .
+   81  git commit -m 'completed es6-const-let exercise. Jonathan Byun'
+   82  git push origin 'es6-const-let'
+   83  git switch master
+   84  git branch es6-template-literals
+   85  git switch es6-tempate-literals
+   86  git switch es6-template-literals
+   87  git add .
+   88  git commit -m 'complete es6-template-literals exercise. Jonathan Byun'
+   89  git push origin 'es6-template-literals'
+   90  git switch master
+   91  git branch es6-destructuring
+   92  git switch es6-destructuring
+   93  git add .
+   94  git commit -m 'completed es6-destructuring exercise. Jonathan Byun'
+   95  git push origin 'es6-destructuring'
+   96  git switch master
+   97  git branch es6-arrow-functions
+   98  git switch es6-arrow-functions
+   99  cd repos
+  100  ls
+  101  cd rc0122-code-solutions
+  102  cd repos
+  103  ls
+  104  cd rc0122-code-solutions
+  105  git add .
+  106  git commit -m 'completed es6-arrow-functions exercise'
+  107  git push origin 'es6-arrow-functions'
+  108  git switch master
+  109  git branch command-line-basics
+  110  git switch command-line-basics
+  111  pwd
+  112  cd command-line-basics
+  113  pwd
+  114  man
+  115  man man
+  116  man cat
+  117  cat laziness.txt --show-all
+  118  man cat
+  119  cat laziness.txt
+  120  cd
+  121  cd repos
+  122  cd rc0122-code-solutions
+  123  ls
+  124  cd command-line-basics
+  125  ls
+  126  cd command-line-basics
+  127  ls
+  128  cat laziness.txt
+  129  cat impatience.txt
+  130  cat hubris.txt
+  131  man cat
+  132  cat laziness.txt hubris.txt impatience.txt
+  133  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  134  cat three-virtues.txt
+  135  man ls
+  136  ls
+  137  ls -a
+  138  ls -F
+  139  ls -aF lfz-staff > lfz-staff/contents.txt
+  140  cat lfz-staff
+  141  cat lfz-staff/contents
+  142  cat lfz-staff/contents.txt
+  143  man pwd
+  144  pwd
+  145  pwd>i-was-here.txt
+  146  ls
+  147  cat i-was-here.txt
+  148  man echo
+  149  echo 'Hello, World!'
+  150  echo 'Hello, World!' > hello.txt
+  151  ls
+  152  cat hello.txt
+  153  man touch
+  154  touch tag-youre-it.txt
+  155  ls
+  156  touch snoot/boop.txt
+  157  ls
+  158  ls snoot
+  159  man mkdir
+  160  mkdir parent
+  161  ls
+  162  man mkdir
+  163  mkdir parent/child/grandchild -p
+  164  ls parent
+  165  touch parent/child/grandchild/.gitkeep
+  166  ls parent -a
+  167  ls -a
+  168  ls parent -a
+  169  ls grandchild
+  170  ls parent/child/grandchild -a
+  171  man mv
+  172  man pokiemans pokemon
+  173  ls
+  174  mv pokiemans pokemon
+  175  ls
+  176  man rm
+  177  rm lol.txt
+  178  ls
+  179  rm kill-me/
+  180  rm kill-me/ -r
+  181  ls
+  182  man rm
+  183  man cp
+  184  cp and-then.txt no-and-then.txt
+  185  ls
+  186  cat and-then.txt no-and-then.txt
+  187  man history
+  188  history
+  189  history > command-history.txt
