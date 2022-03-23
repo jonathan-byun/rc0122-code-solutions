@@ -9,7 +9,6 @@ app.get('/api/notes', (req, res) => {
     jsonArray.push(data[key]);
   }
   res.json(jsonArray);
-  res.status(200);
 });
 
 app.get('/api/notes/:id', (req, res) => {
@@ -20,7 +19,7 @@ app.get('/api/notes/:id', (req, res) => {
     const errorMessageMissing = { error: 'cannot find note with id ' + req.params.id };
     res.status(404).json(errorMessageMissing);
   } else {
-    res.status(200).json(data.notes[req.params.id]);
+    res.json(data.notes[req.params.id]);
   }
 });
 
@@ -61,7 +60,7 @@ app.delete('/api/notes/:id', (req, res) => {
         console.error(err);
         res.status(500).json({ error: 'An unexpected error occurred.' });
       } else {
-        res.status(204).json();
+        res.sendStatus(204);
       }
     });
   }
@@ -82,7 +81,7 @@ app.put('/api/notes/:id', (req, res) => {
         console.error(err);
         res.status(500).json({ error: 'An unexpected error occurred.' });
       } else {
-        res.status(200).json(data.notes[req.params.id]);
+        res.json(data.notes[req.params.id]);
       }
     });
   }
