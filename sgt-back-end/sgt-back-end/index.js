@@ -27,8 +27,12 @@ app.get('/api/grades', (req, res) => {
 });
 
 app.post('/api/grades', (req, res) => {
-  if (req.body.name === undefined || req.body.course === undefined || Number.isNaN(req.body.score) || req.body.score < 0 || req.body.score > 100) {
+  if (req.body.name === undefined || req.body.course === undefined || req.body.score === undefined) {
     res.status(400).json({ error: 'Please include name, course, and a score between 0-100' });
+    return;
+  }
+  if (Number.isNaN(req.body.score) || req.body.score < 0 || req.body.score > 100) {
+    res.status(400).json({ error: 'Please set score to a number between 0 and 100' });
     return;
   }
   const sql = `
@@ -50,8 +54,12 @@ app.post('/api/grades', (req, res) => {
 
 app.put('/api/grades/:gradeId', (req, res) => {
   const gradeId = Number(req.params.gradeId);
-  if (!Number.isInteger(gradeId) || gradeId <= 0 || req.body.name === undefined || req.body.course === undefined || Number.isNaN(req.body.score) || req.body.score < 0 || req.body.score > 100) {
+  if (!Number.isInteger(gradeId) || gradeId <= 0 || req.body.name === undefined || req.body.course === undefined) {
     res.status(400).json({ error: 'Please include name, course, score between 0-100, and gradeId greater than 0' });
+    return;
+  }
+  if (Number.isNaN(req.body.score) || req.body.score < 0 || req.body.score > 100) {
+    res.status(400).json({ error: 'Please set score to a number between 0 and 100' });
     return;
   }
   const sql = `
