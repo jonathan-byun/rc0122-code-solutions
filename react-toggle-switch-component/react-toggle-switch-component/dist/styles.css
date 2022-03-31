@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.margin-left {
+  margin-left: 44%;
+  transition: margin 1s;
+}
+
+.background-green {
+  background-color: #6aa84f;
+  transition: background-color 1s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: solid black 2px;
+  transition: background-color 1s;
+}
+
+.switch {
+  width: 50%;
+  height: 100%;
+  border-radius: 4rem;
+  background-color: white;
+  border: solid black 2px;
+  transition: margin 1s;
+}
