@@ -10,6 +10,8 @@ class Stopwatch extends React.Component {
     };
     this.formatTime = this.formatTime.bind(this);
     this.start = this.start.bind(this);
+    this.stop = this.stop.bind(this);
+    this.reset = this.reset.bind(this);
   }
 
   start() {
@@ -17,7 +19,20 @@ class Stopwatch extends React.Component {
       () => this.tick(), 1000
     );
     this.setState({
-      active: !this.state.active
+      active: true
+    });
+  }
+
+  stop() {
+    clearInterval(this.timerId);
+    this.setState({
+      active: false
+    });
+  }
+
+  reset() {
+    this.setState({
+      time: 0
     });
   }
 
@@ -42,12 +57,12 @@ class Stopwatch extends React.Component {
     return (
       <div className='container'>
         <div className='watchface-container'>
-          <div className='stopwatch-circle'>
+          <div className='stopwatch-circle' onClick={ !this.state.active && this.reset}>
             <h2 className='displayed-time'>{display}</h2>
           </div>
         </div>
         <div className='icon'>
-            <i className={this.start.active ? 'fa-solid fa-pause fa-2xl' : 'fa-solid fa-play fa-2xl'} onClick={this.start}></i>
+            <i className={this.state.active ? 'fas fa-pause fa-2xl' : 'fas fa-play fa-2xl'} onClick={this.state.active ? this.stop : this.start}></i>
         </div>
       </div>
 
