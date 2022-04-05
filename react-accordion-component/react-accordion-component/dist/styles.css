@@ -1,0 +1,21 @@
+.hidden {
+  display: none;
+}
+
+.list-topic {
+  background-color: lightgrey;
+  border: black solid 1px;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+}
+
+.content-class {
+  background-color: white;
+  border: black solid 1px;
+  padding: 0.5rem 2rem;
+}
+
+.unit-container {
+  width: 50%;
+  margin: 0.2rem 0;
+}
