@@ -70,7 +70,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-App.contextType = AppContext;
-Navbar.contextType = AppContext;
-Auth.contextType = AppContext;
